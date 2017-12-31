@@ -33,25 +33,6 @@ class App extends Component {
           <Route path="/signup" component={Signup} />
           <PrivateRoute path="/dashboard" component={Dashboard} />
         </Switch>
-
-        <footer>
-          <div className="annotation">
-            <a className="stripe" href="https://stripe.com">
-              Stripe
-            </a>
-            <p>
-              Drow is a demo application for{' '}
-              <a href="https://stripe.com/connect">Stripe Connect</a>. It is not
-              a real product.
-            </p>
-            <a
-              className="github arrow"
-              href="https://github.com/stripe/stripe-connect-rocketrides"
-            >
-              View on GitHub
-            </a>
-          </div>
-        </footer>
       </div>
     );
   }
