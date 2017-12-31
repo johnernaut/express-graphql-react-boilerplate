@@ -1,5 +1,6 @@
 # express-graphql-react-boilerplate
 
+An example Express GraphQL server that uses JWT's for authentication.  Basic login / logout and signup functionality is provided.  MongoDB is used as the default (via Mongoose), but you can easily replace that with any DB you'd like.
 More docs to come soon.
 
 ### Getting Started
