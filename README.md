@@ -11,3 +11,6 @@ To run the server, type `yarn run dev` from the root directory (server runs on p
 
 #### Requirements
 A `.env` file is needed with a `MONGO_HOST` and `JWT_SECRET` variable set.  The boilerplate uses mongo to give an example of how to authenticate, but you can plug in any DB you'd like.
+
+
+Layout and CSS taken from Stripe's [RocketRides](https://github.com/stripe/stripe-connect-rocketrides).
