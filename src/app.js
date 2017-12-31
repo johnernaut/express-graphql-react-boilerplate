@@ -1,10 +1,5 @@
 'use strict';
 
-if (process.env.NODE_ENV === 'production') {
-  // cloud tracing
-  var agent = require('@google-cloud/trace-agent').start();
-}
-
 require('dotenv').config();
 
 // MongoDB.
