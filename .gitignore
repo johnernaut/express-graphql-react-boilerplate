@@ -4,6 +4,8 @@ config.js
 # macOS
 .DS_Store
 
+.vscode
+
 # Xcode
 xcuserdata/
 
